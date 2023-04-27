@@ -87,7 +87,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/pradmon/MyPortfolio.git
+  git clone https://github.com/pradmon/My-Portfolio
 ```
 
 ### Install
