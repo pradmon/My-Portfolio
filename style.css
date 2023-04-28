@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.icons-socialMedia {
+  height: 25px;
+  width: 170.1666717529297px;
+  left: -85px;
+  top: -11px;
+  border-radius: 0;
+  list-style: none;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  color: #505f79;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 3rem;
+  margin-top: 1.6rem;
+}
+
+.menu-button {
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  font-style: bold;
+  font-size: 1rem;
+  color: #6070ff;
+  line-height: 1.2rem;
+  line-height: 74%;
+  vertical-align: center;
+  border: 0;
+  background-color: #fff;
+}
+
+.menu-button a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
+  font-style: bold;
+  vertical-align: center;
+}
+
+.menu-mobile {
+  margin-top: 0.6rem;
+  margin-left: 1.9rem;
+  margin-right: 0.9rem;
+  background-color: #fff;
+}
+
+.main {
+  background-image: url(./img/header-background-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10rem;
+}
+
+.headline {
+  text-align: left;
+  margin: 0 8%;
+}
+
+.presentation {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  left: -163px;
+  top: -76px;
+  border-radius: nullpx;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  color: #172b4d;
+  line-height: 3.2rem;
+  padding-top: 10rem;
+}
+
+.color-text {
+  color: #172b4d;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.text-connect {
+  height: 24px;
+  width: 125px;
+  left: -59px;
+  top: 13px;
+  border-radius: nullpx;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 0.6rem;
+  margin-bottom: 20px;
+  color: #6070ff;
+}
+
+.icon1 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.icon2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+.icon3 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.1rem;
+  margin-left: 1.5rem;
+  margin-right: 0.3rem;
+}
