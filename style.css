@@ -190,18 +190,27 @@ body {
 .work-section {
   align-items: center;
   width: 375px;
-  height: 2788px;
   display: grid;
   text-align: left;
   padding: 25px;
-  gap: 88px;
-  margin-bottom: 90px;
+}
+
+.grid-container .work-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
 }
 
 .work-section ul {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 2px;
+  justify-content: left;
+  padding-top: 25px;
 }
 
 .work-section ul li {
@@ -239,8 +248,8 @@ body {
   padding: 15px;
 }
 
-.work1-detail ul li a {
-  color: #2e4662;
+.work1-detail ul li .text-decoration {
+  color: #7a869a;
 }
 
 .text-decoration1 {
@@ -249,6 +258,14 @@ body {
   border-radius: 8px;
   padding-right: 14px;
   padding-left: 14px;
+}
+
+.work1-detail ul li .text-decoration2 {
+  color: #344563;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
 }
 
 .font-color {
@@ -264,8 +281,9 @@ body {
 
 .work-description-detail ul li {
   font-size: 12px;
-  padding: 4px 12px;
   border-radius: 8px;
+  display: inline-block;
+  padding-left: 2px;
 }
 
 .blue-color {
@@ -279,7 +297,8 @@ body {
 }
 
 .btn:enabled {
-  font-size: 19px;
+  font-size: 15px;
+  font-weight: 500;
   text-align: center;
   padding: 8px 1px;
   border: 1px solid #6070ff;
@@ -308,7 +327,6 @@ body {
 
 .about-myself {
   border-top-right-radius: 50px;
-  width: 375px;
   padding-top: 75px;
   padding-bottom: 114px;
 }
@@ -336,6 +354,7 @@ body {
 
 .icons-socialMedia2 {
   padding-left: 1px;
+  padding-bottom: 15px;
   display: flex;
 }
 
@@ -361,7 +380,18 @@ body {
 }
 
 .language-title {
+  padding-bottom: 15px;
+  padding-top: 15px;
   display: flex;
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .language-title > .arrow > img {
@@ -392,6 +422,9 @@ body {
 .about-myself .about-myself-container .title1 {
   font-size: 20px;
   font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
 }
 
 .language-list {
@@ -417,12 +450,23 @@ body {
 .list-flex {
   display: flex;
   justify-content: start;
+  background: #f7f7f9;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.work-description-detail {
+  justify-content: left;
 }
 
 .name-prom {
   padding-top: 13px;
   margin-left: 15px;
   color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
 }
 
 .frameworks > .arrow {
@@ -431,6 +475,7 @@ body {
 
 .arrow1 {
   margin-left: 205px;
+  padding-right: 23px;
 }
 
 .contact {
