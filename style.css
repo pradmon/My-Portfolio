@@ -305,6 +305,9 @@ body {
   width: 124px;
   color: #396df2;
   cursor: pointer;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .btn:hover {
