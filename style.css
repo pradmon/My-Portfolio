@@ -240,12 +240,16 @@ body {
 .work1,
 .work2,
 .work3,
-.work4,
-.about-myself {
+.work4 {
   border-radius: 16px;
   background-color: #fff;
   border: 1px solid lightgray;
   padding: 15px;
+}
+
+.about-myself{
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .work1-detail ul li .text-decoration {
@@ -491,8 +495,9 @@ body {
   background-repeat: no-repeat;
   background-position: 130% 20%;
   border-radius: 75px 0 0 0;
-  margin-left: -21px;
   margin-top: 177px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .contact_footer p {
