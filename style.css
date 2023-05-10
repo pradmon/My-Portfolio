@@ -27,7 +27,6 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  margin-top: 1.6rem;
   background-color: #fff;
 }
 
@@ -351,8 +350,30 @@ ul.list {
   color: #396df2;
   cursor: pointer;
   background: white;
-  border-radius: 9px;
-  margin-bottom: 16px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.get-in-touch {
+  margin-left: 7.4%;
+  padding: 12px 16px;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  top: 22px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+}
+
+.btntext {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
 }
 
 .btn:hover,
@@ -371,10 +392,6 @@ ul.list {
 .btn1:disabled {
   color: #5a6c83;
   border: none;
-}
-
-.get-in-touch {
-  margin-left: 6.4%;
 }
 
 .btnsummary {
@@ -570,7 +587,6 @@ form {
   margin: 70px 0;
   font-family: "Poppins", sans-serif;
   align-items: start;
-  width: 327px;
 }
 
 form input {
