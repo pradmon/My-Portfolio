@@ -351,8 +351,8 @@ ul.list {
   color: #396df2;
   cursor: pointer;
   background: white;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  border-radius: 9px;
+  margin-bottom: 16px;
 }
 
 .btn:hover,
